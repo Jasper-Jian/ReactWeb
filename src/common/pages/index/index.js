@@ -9,7 +9,7 @@ export default class index extends React.Component {
         return (
             <div>
               <Row gutter={10} type="flex" justify="space-between" align="bottom">
-                <Col span={4}>
+                <Col xs={24} sm={24} md={12} lg={6}>
                   <div className="cloud-box">
                     <Card>
                       <div className="clear y-center">
@@ -37,7 +37,7 @@ export default class index extends React.Component {
                     </Card>
                   </div>
                 </Col>
-                <Col span={4}>
+                <Col xs={24} sm={24} md={12} lg={6}>
                   <div className="cloud-box">
                     <Card>
                       <div className="clear y-center">
@@ -65,14 +65,16 @@ export default class index extends React.Component {
                     </Card>
                   </div>
                 </Col>
-                <Col span={16}>
+                <Col xs={24} sm={24} md={24} lg={12}>
                   <div className="cloud-box">
                     <Card className={'no-padding'}>
                       <EchartsProjects />
                     </Card>
                   </div>
                 </Col>
-                <Col span={8}>
+              </Row>
+              <Row gutter={10} type="flex" justify="space-between" align="bottom">
+                <Col xs={24} sm={24} md={24} lg={12}>
                   <div className="cloud-box">
                     <Card>
                       <div className="pb-m">
@@ -94,7 +96,7 @@ export default class index extends React.Component {
                     </Card>
                   </div>
                 </Col>
-                <Col span={8}>
+                <Col xs={24} sm={24} md={24} lg={12}>
                   <div className="cloud-box">
                     <Card>
                       <div className="pb-m">
