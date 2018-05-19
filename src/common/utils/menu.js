@@ -10,11 +10,13 @@ export const allMenu = [
     children: [
       { name: 'Music', url: 'music' },
     ]
-  }, {
+  }, 
+  {
     name: 'Tools',
-    url: 'tool',
+    url: 'tools',
     icon: 'tool',
     children: [
+      { name: 'Calculator', url: 'tools' },
       { name: 'To Do List', url: 'todoList' },
     ],
   },
